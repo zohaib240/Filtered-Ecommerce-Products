@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+}
+.btn_back{
+    background-color: rgb(214, 214, 66);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10px;
+    
+}
+.card-h{
+    background-color: #7fffd4;
+    color:black ;
+
+}
+
+
+.nav{
+    
+  background-color:#7fffd4; 
+  width: 100%;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right:2rem ;
+}
+
+.about{
+    gap: 10px;
+    
+}
+.logo{
+    margin-left: 2rem;
+}
+.img_all{
+    width: 2rem;
+    height: 15rem;
+}
+.about a{
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width:800px){
+    .about a {
+        display: none;
+    } 
+    .about i{
+        display: block;
+    }
+    
+    }
